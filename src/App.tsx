@@ -78,7 +78,7 @@ function App(){
       {alertVisible ? <Alert alert={alert} />:null}
       <div className='container my-3'>
         <Routes>
-          <Route path="/" element = {<Form heading="Enter your text to Analyze" mode={mode} alertFunction={showAlertFunction} alertVisibility={setAlertVisibility} />}/>
+          <Route index element = {<Form heading="Enter your text to Analyze" mode={mode} alertFunction={showAlertFunction} alertVisibility={setAlertVisibility} />}/>
           <Route path="/about" element={<About />} />
         </Routes>
 
