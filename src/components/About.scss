@@ -1,0 +1,18 @@
+
+.accordion-header-custom {
+    --bs-accordion-btn-color: #ffffff;
+    --bs-accordion-btn-bg: #000000;
+    --bs-accordion-color: #ffffff;
+    --bs-accordion-bg: #000000;
+}
+
+.accordion-header-default {
+    --bs-accordion-btn-color: #000000;
+    --bs-accordion-btn-bg: #ffffff;
+    --bs-accordion-color: #000000;
+    --bs-accordion-bg: #ffffff  ;
+}
+
+
+
+@import '../../node_modules/bootstrap/scss/bootstrap.scss';
